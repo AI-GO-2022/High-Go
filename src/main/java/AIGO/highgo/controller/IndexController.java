@@ -15,6 +15,7 @@ import javax.servlet.http.HttpSession;
 
 @RequiredArgsConstructor
 @Controller
+@Slf4j
 public class IndexController {
 
     private final PostsService postsService;
@@ -24,6 +25,7 @@ public class IndexController {
 
     @GetMapping("/")
     public String index(Model model) {
+        log.info("user - returned");
         model.addAttribute("posts", postsService.findAllDesc());
         SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if(user != null) model.addAttribute("userName", user.getName());
