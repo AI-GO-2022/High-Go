@@ -1,10 +1,10 @@
-package AIGO.highgo.web;
+package AIGO.highgo.controller;
 
 
+import AIGO.highgo.controller.dto.PostsResponseDto;
+import AIGO.highgo.controller.dto.PostsSaveRequestDto;
+import AIGO.highgo.controller.dto.PostsUpdateRequestDto;
 import AIGO.highgo.service.posts.PostsService;
-import AIGO.highgo.web.dto.PostsResponseDto;
-import AIGO.highgo.web.dto.PostsSaveRequestDto;
-import AIGO.highgo.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

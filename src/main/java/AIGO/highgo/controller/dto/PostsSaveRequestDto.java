@@ -1,4 +1,4 @@
-package AIGO.highgo.controller;
+package AIGO.highgo.controller.dto;
 
 import AIGO.highgo.domain.posts.Posts;
 import lombok.Builder;

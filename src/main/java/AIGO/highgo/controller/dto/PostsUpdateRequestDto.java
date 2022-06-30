@@ -1,4 +1,4 @@
-package AIGO.highgo.controller;
+package AIGO.highgo.controller.dto;
 
 import lombok.Builder;
 import lombok.Getter;

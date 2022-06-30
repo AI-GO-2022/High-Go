@@ -1,4 +1,4 @@
-package com.suddiyo.springboot.domain.posts;
+package AIGO.highgo.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

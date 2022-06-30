@@ -1,11 +1,11 @@
-package com.suddiyo.springboot.service.posts;
+package AIGO.highgo.service.posts;
 
-import com.suddiyo.springboot.domain.posts.Posts;
-import com.suddiyo.springboot.domain.posts.PostsRepository;
-import com.suddiyo.springboot.web.dto.PostsListResponseDto;
-import com.suddiyo.springboot.web.dto.PostsResponseDto;
-import com.suddiyo.springboot.web.dto.PostsSaveRequestDto;
-import com.suddiyo.springboot.web.dto.PostsUpdateRequestDto;
+import AIGO.highgo.domain.posts.Posts;
+import AIGO.highgo.domain.posts.PostsRepository;
+import AIGO.highgo.controller.dto.PostsListResponseDto;
+import AIGO.highgo.controller.dto.PostsResponseDto;
+import AIGO.highgo.controller.dto.PostsSaveRequestDto;
+import AIGO.highgo.controller.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -50,4 +50,3 @@ public class PostsService {
     }
 
 }
-// 쿼리를 날린다는 것??? 뭘 말하는 것? update 부분에서는 쿼리를 안 날린다는데.

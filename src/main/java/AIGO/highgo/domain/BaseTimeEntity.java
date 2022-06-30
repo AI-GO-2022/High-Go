@@ -1,4 +1,4 @@
-package AIGO.highgo.domain.posts;
+package AIGO.highgo.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
