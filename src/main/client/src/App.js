@@ -1,7 +1,8 @@
-
-
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
+import './App.css';
+import './nav.css';
+import imagemain from './components/images/mainlogo.png';
 
 function App() {
   const [hello, setHello] = useState('')
@@ -14,8 +15,20 @@ function App() {
 
   return (
       <div>
-        백엔드에서 가져온 데이터입니다 : {hello}
-      </div>
+        {hello}
+        <div className="subtitle">LET'S GO HIGH-!</div>
+        <nav id="menubar">
+        <ul>
+          <li><a href="#">HIKING FOOTPRINT</a></li>
+          <li><a href="#">HIKING DIARY</a></li>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">SIGN UP</a></li>
+          </ul>
+        </nav>
+        <div className="title">HIGH-GO<br/></div>
+        <button className="recommendation">RECOMMENDATION FOR YOU!<br/>
+        CLICK ME!</button>
+    </div>
   );
 }
 
