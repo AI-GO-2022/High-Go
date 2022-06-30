@@ -1,5 +1,6 @@
 package AIGO.highgo.controller;
 
+import AIGO.highgo.config.auth.LoginUser;
 import AIGO.highgo.config.auth.dto.SessionUser;
 import AIGO.highgo.controller.dto.PostsResponseDto;
 import AIGO.highgo.service.posts.PostsService;
@@ -24,10 +25,9 @@ public class IndexController {
 
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         log.info("user - returned");
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if(user != null) model.addAttribute("userName", user.getName());
         return "index";
     }
