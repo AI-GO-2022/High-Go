@@ -2,7 +2,8 @@ import React, {useEffect, useState} from 'react';
 import axios from 'axios';
 import './App.css';
 import './nav.css';
-import imagemain from './components/images/mainlogo.png';
+import './mainpage.css';
+import imagemain from './components/images/mainlogo2.png';
 
 function App() {
   const [hello, setHello] = useState('')
@@ -15,7 +16,10 @@ function App() {
 
   return (
       <div>
+        <section>
+          <img className="cloud"/>
         {hello}
+
         <div className="subtitle">LET'S GO HIGH-!</div>
         <nav id="menubar">
         <ul>
@@ -25,9 +29,11 @@ function App() {
           <li><a href="#">SIGN UP</a></li>
           </ul>
         </nav>
-        <div className="title">HIGH-GO<br/></div>
+        <div className="title"><img className="mainlogo" src={imagemain}/></div>
+        <br/>
         <button className="recommendation">RECOMMENDATION FOR YOU!<br/>
         CLICK ME!</button>
+        </section>
     </div>
   );
 }
