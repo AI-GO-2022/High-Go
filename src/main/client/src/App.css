@@ -1,0 +1,36 @@
+.title{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: serif;
+    color : #00CC99;
+    margin-top:80px;
+    margin-left:90px;
+}
+.subtitle{
+    text-align: left;
+    font-size : 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.mainlogo
+{
+    width : 200px;
+height:180px;
+    margin-left : 50px;
+}
+.recommendation{
+    border-radius: 20px;
+    border:3px solid darkgreen;
+    background-color: #00CC99;
+    color:white;
+    margin-left : 50px;
+    width:350px;
+    height :100px;
+    font-size: 20px;   
+}
+.recommendation :hover
+{
+    background-color: white;
+    color:#00CC99
+}

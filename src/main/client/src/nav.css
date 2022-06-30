@@ -1,0 +1,18 @@
+#menubar{
+    font-size : 20px;
+text-align: right;
+background-color: black;
+}
+#menubar ul li{
+display : inline-block;
+list-style-type: none;
+padding : 0px 15px;
+}
+#menubar ul li a{
+    color: white;
+    text-decoration : none;
+    text-align: center;
+}
+#menubar ul li a:hover{
+    color : #00CC99;
+}
