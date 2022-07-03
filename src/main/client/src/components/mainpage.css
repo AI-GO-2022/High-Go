@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+section{
+    height: 2000px;
+    background: url(https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_960_720.png) fixed;
+    background-size: 100% ;
+}
+.cloud{
+    width: 100%;
+    background-repeat: repeat;
+    background : url(https://i.imgur.com/UoNlFlC.png);
+}
+
